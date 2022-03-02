@@ -1,5 +1,5 @@
 module.exports = {
-    // base: "/docs/",
+    base: "/fe-note/",
     title: "李十一啊",
     description: "李十一啊的前端笔记记录",
     head: [

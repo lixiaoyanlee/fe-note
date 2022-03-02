@@ -4,7 +4,7 @@
 export const siteData = {
   "title": "李十一啊",
   "description": "李十一啊的前端笔记记录",
-  "base": "/docs/",
+  "base": "/fe-note/",
   "headTags": [
     [
       "meta",
@@ -23,13 +23,28 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-743c9315",
+      "path": "/about/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        }
+      ]
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
         "heroText": "李十一啊",
         "tagline": "前端笔记",
         "actionText": "快速上手 →",
-        "actionLink": "/docs/js/",
+        "actionLink": "/js/",
         "features": [
           {
             "title": "简洁至上",
@@ -50,21 +65,6 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-649ce064",
       "path": "/"
-    },
-    {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-743c9315",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        }
-      ]
     }
   ],
   "themeConfig": {
