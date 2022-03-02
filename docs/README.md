@@ -1,5 +1,5 @@
 ---
-home: true
+# home: true
 # heroImage: /hero.png
 heroText: 李十一啊
 tagline: 前端笔记

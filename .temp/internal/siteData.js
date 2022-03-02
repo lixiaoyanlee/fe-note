@@ -23,24 +23,8 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "关于我",
-      "frontmatter": {},
-      "regularPath": "/about/",
-      "relativePath": "about/README.md",
-      "key": "v-743c9315",
-      "path": "/about/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "关于我",
-          "slug": "关于我"
-        }
-      ]
-    },
-    {
-      "title": "Home",
+      "title": "李十一啊",
       "frontmatter": {
-        "home": true,
         "heroText": "李十一啊",
         "tagline": "前端笔记",
         "actionText": "快速上手 →",
@@ -65,6 +49,21 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-649ce064",
       "path": "/"
+    },
+    {
+      "title": "关于我",
+      "frontmatter": {},
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-743c9315",
+      "path": "/about/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "关于我",
+          "slug": "关于我"
+        }
+      ]
     }
   ],
   "themeConfig": {
